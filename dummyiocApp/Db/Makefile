@@ -15,6 +15,7 @@ DB += dbExample2.db
 DB += dbSubExample.db
 DB += user.substitutions
 DB += userHost.substitutions
+DB += dummyDEV.db
 
 #----------------------------------------------------
 # If <anyname>.db template is not named <anyname>*.template add

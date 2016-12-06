@@ -1,225 +1,138 @@
-file "dummyPS.db" {
-	pattern { sys, subsys, dev, inst, sig, dom, set, rd }
-		{"REA", "BTS23", "DV", "D1155", "I", "CSET", ""}
-		{"REA", "BTS25", "Q", "D1164", "I", "CSET", ""}
-		{"REA", "BTS25", "SLVCEN", "D1166", "POS", "CSET", ""}
-		{"REA", "BTS25", "SLVGAP", "D1166", "POS", "CSET", ""}
-		{"REA", "BTS25", "Q", "D1169", "I", "CSET", ""}
-		{"REA", "BTS25", "DCH", "D1172", "I", "CSET", ""}
-		{"REA", "BTS25", "DCV", "D1172", "I", "CSET", ""}
-		{"REA", "BTS25", "Q", "D1174", "I", "CSET", ""}
-		{"REA", "BTS25", "Q", "D1181", "I", "CSET", ""}
-		{"REA", "BTS25", "Q", "D1186", "I", "CSET", ""}
-		{"REA", "BTS25", "Q", "D1192", "I", "CSET", ""}
-		{"REA", "BTS25", "DV", "D1200", "I", "CSET", ""}
-		{"REA", "BTS25", "DD", "D1207", "POS", "CSET", ""}
-		{"REA", "BTS30", "DCV", "D1219", "I", "CSET", ""}
-		{"REA", "BTS30", "DCH", "D1219", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1221", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1228", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1245", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1252", "I", "CSET", ""}
-		{"REA", "BTS30", "SLHCEN", "D1256", "POS", "CSET", ""}
-		{"REA", "BTS30", "SLHGAP", "D1256", "POS", "CSET", ""}
-		{"REA", "BTS30", "SLVCEN", "D1256", "POS", "CSET", ""}
-		{"REA", "BTS30", "SLVGAP", "D1256", "POS", "CSET", ""}
-		{"REA", "BTS30", "DD", "D1256", "POS", "CSET", ""}
-		{"REA", "BTS30", "DCV", "D1270", "I", "CSET", ""}
-		{"REA", "BTS30", "DCH", "D1270", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1272", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1275", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1281", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1285", "I", "CSET", ""}
-		{"REA", "BTS30", "DH", "D1296", "I", "CSET", ""}
-		{"REA", "BTS30", "DCV", "D1305", "I", "CSET", ""}
-		{"REA", "BTS30", "DCH", "D1305", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1307", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1310", "I", "CSET", ""}
-		{"REA", "BTS30", "SLHCEN", "D1316", "POS", "CSET", ""}
-		{"REA", "BTS30", "SLHGAP", "D1316", "POS", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1323", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1327", "I", "CSET", ""}
-		{"REA", "BTS30", "DH", "D1338", "I", "CSET", ""}
-		{"REA", "BTS30", "DCV", "D1345", "I", "CSET", ""}
-		{"REA", "BTS30", "DCH", "D1345", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1346", "I", "CSET", ""}
-		{"REA", "BTS30", "Q", "D1351", "I", "CSET", ""}
-		{"REA", "BTS30", "DH", "D1362", "I", "CSET", ""}
-		{"REA", "BTS32", "Q", "D1369", "I", "CSET", ""}
-		{"REA", "BTS32", "DH", "D1376", "I", "CSET", ""}
-		{"REA", "BTS33", "DCV", "D1385", "I", "CSET", ""}
-		{"REA", "BTS33", "DCH", "D1385", "I", "CSET", ""}
-		{"REA", "BTS33", "Q", "D1388", "I", "CSET", ""}
-		{"REA", "BTS33", "Q", "D1395", "I", "CSET", ""}
-		{"REA", "BTS33", "DCV", "D1404", "I", "CSET", ""}
-		{"REA", "BTS33", "DCH", "D1404", "I", "CSET", ""}
-		{"REA", "BTS33", "Q", "D1411", "I", "CSET", ""}
-		{"REA", "BTS33", "Q", "D1415", "I", "CSET", ""}
-		{"REA", "CM01", "CCG", "D1099", "VP", "RD", ""}
-		{"REA", "CM01", "CCG", "D1099", "V", "RD", ""}
-		{"REA", "CM01", "IG", "N0001", "VP", "RD", ""}
-		{"REA", "CM01", "FPG", "N0001", "VP", "RD", ""}
-		{"REA", "CM01", "FPG", "N0001", "V", "RD", ""}
-		{"REA", "CM01", "TMP", "N0001", "S", "RD", ""}
-		{"REA", "CM01", "TMP", "N0001", "V", "RD", ""}
-		{"REA", "CM01", "RFA1", "D1102", "I", "RD", ""}
-		{"REA", "CM01", "RFA1", "D1102", "POWR", "RD", ""}
-		{"REA", "CM01", "RFC1", "D1102", "SINF", "RD", ""}
-		{"REA", "CM01", "RFC1", "D1102", "AMPL", "RD", "FWD"}
-		{"REA", "CM01", "RFC1", "D1102", "AMPL", "RD", "REF"}
-		{"REA", "CM01", "RFC1", "D1102", "AMPL", "RD", "RFL"}
-		{"REA", "CM01", "RFC1", "D1102", "PHA", "RD", "FWD"}
-		{"REA", "CM01", "RFC1", "D1102", "PHA", "RD", "REF"}
-		{"REA", "CM01", "RFC1", "D1102", "PHA", "RD", "RFL"}
-		{"REA", "CM01", "RFC1", "D1102", "POWR", "RD", "CAV"}
-		{"REA", "CM01", "RFC1", "D1102", "POWR", "RD", "FWD"}
-		{"REA", "CM01", "RFC1", "D1102", "POWR", "RD", "RFL"}
-		{"REA", "CM01", "RFA2", "D1111", "I", "RD", ""}
-		{"REA", "CM01", "RFA2", "D1111", "POWR", "RD", ""}
-		{"REA", "CM01", "RFC2", "D1111", "SINF", "RD", ""}
-		{"REA", "CM01", "RFC2", "D1111", "AMPL", "RD", "FWD"}
-		{"REA", "CM01", "RFC2", "D1111", "AMPL", "RD", "REF"}
-		{"REA", "CM01", "RFC2", "D1111", "AMPL", "RD", "RFL"}
-		{"REA", "CM01", "RFC2", "D1111", "PHA", "RD", "FWD"}
-		{"REA", "CM01", "RFC2", "D1111", "PHA", "RD", "REF"}
-		{"REA", "CM01", "RFC2", "D1111", "PHA", "RD", "RFL"}
-		{"REA", "CM01", "RFC2", "D1111", "POWR", "RD", "CAV"}
-		{"REA", "CM01", "RFC2", "D1111", "POWR", "RD", "FWD"}
-		{"REA", "CM01", "RFC2", "D1111", "POWR", "RD", "RFL"}
-		{"REA", "CM01", "RFA3", "D1115", "I", "RD", ""}
-		{"REA", "CM01", "RFA3", "D1115", "POWR", "RD", ""}
-		{"REA", "CM01", "RFC3", "D1115", "SINF", "RD", ""}
-		{"REA", "CM01", "RFC3", "D1115", "AMPL", "RD", "FWD"}
-		{"REA", "CM01", "RFC3", "D1115", "AMPL", "RD", "REF"}
-		{"REA", "CM01", "RFC3", "D1115", "AMPL", "RD", "RFL"}
-		{"REA", "CM01", "RFC3", "D1115", "PHA", "RD", "FWD"}
-		{"REA", "CM01", "RFC3", "D1115", "PHA", "RD", "REF"}
-		{"REA", "CM01", "RFC3", "D1115", "PHA", "RD", "RFL"}
-		{"REA", "CM01", "RFC3", "D1115", "POWR", "RD", "CAV"}
-		{"REA", "CM01", "RFC3", "D1115", "POWR", "RD", "FWD"}
-		{"REA", "CM01", "RFC3", "D1115", "POWR", "RD", "RFL"}
-		{"REA", "CM01", "RFA4", "D1118", "I", "RD", ""}
-		{"REA", "CM01", "RFA4", "D1118", "POWR", "RD", ""}
-		{"REA", "CM01", "RFC4", "D1118", "SINF", "RD", ""}
-		{"REA", "CM01", "RFC4", "D1118", "AMPL", "RD", "FWD"}
-		{"REA", "CM01", "RFC4", "D1118", "AMPL", "RD", "REF"}
-		{"REA", "CM01", "RFC4", "D1118", "AMPL", "RD", "RFL"}
-		{"REA", "CM01", "RFC4", "D1118", "PHA", "RD", "FWD"}
-		{"REA", "CM01", "RFC4", "D1118", "PHA", "RD", "REF"}
-		{"REA", "CM01", "RFC4", "D1118", "PHA", "RD", "RFL"}
-		{"REA", "CM01", "RFC4", "D1118", "POWR", "RD", "CAV"}
-		{"REA", "CM01", "RFC4", "D1118", "POWR", "RD", "FWD"}
-		{"REA", "CM01", "RFC4", "D1118", "POWR", "RD", "RFL"}
-		{"REA", "CM01", "RFA5", "D1127", "I", "RD", ""}
-		{"REA", "CM01", "RFA5", "D1127", "POWR", "RD", ""}
-		{"REA", "CM01", "RFC5", "D1127", "SINF", "RD", ""}
-		{"REA", "CM01", "RFC5", "D1127", "AMPL", "RD", "FWD"}
-		{"REA", "CM01", "RFC5", "D1127", "AMPL", "RD", "REF"}
-		{"REA", "CM01", "RFC5", "D1127", "AMPL", "RD", "RFL"}
-		{"REA", "CM01", "RFC5", "D1127", "PHA", "RD", "FWD"}
-		{"REA", "CM01", "RFC5", "D1127", "PHA", "RD", "REF"}
-		{"REA", "CM01", "RFC5", "D1127", "PHA", "RD", "RFL"}
-		{"REA", "CM01", "RFC5", "D1127", "POWR", "RD", "CAV"}
-		{"REA", "CM01", "RFC5", "D1127", "POWR", "RD", "FWD"}
-		{"REA", "CM01", "RFC5", "D1127", "POWR", "RD", "RFL"}
-		{"REA", "CM01", "RFA6", "D1131", "I", "RD", ""}
-		{"REA", "CM01", "RFA6", "D1131", "POWR", "RD", ""}
-		{"REA", "CM01", "RFC6", "D1131", "SINF", "RD", ""}
-		{"REA", "CM01", "RFC6", "D1131", "AMPL", "RD", "FWD"}
-		{"REA", "CM01", "RFC6", "D1131", "AMPL", "RD", "REF"}
-		{"REA", "CM01", "RFC6", "D1131", "AMPL", "RD", "RFL"}
-		{"REA", "CM01", "RFC6", "D1131", "PHA", "RD", "FWD"}
-		{"REA", "CM01", "RFC6", "D1131", "PHA", "RD", "REF"}
-		{"REA", "CM01", "RFC6", "D1131", "PHA", "RD", "RFL"}
-		{"REA", "CM01", "RFC6", "D1131", "POWR", "RD", "CAV"}
-		{"REA", "CM01", "RFC6", "D1131", "POWR", "RD", "FWD"}
-		{"REA", "CM01", "RFC6", "D1131", "POWR", "RD", "RFL"}
-		{"REA", "CM01", "RFA7", "D1135", "I", "RD", ""}
-		{"REA", "CM01", "RFA7", "D1135", "POWR", "RD", ""}
-		{"REA", "CM01", "RFC7", "D1135", "SINF", "RD", ""}
-		{"REA", "CM01", "RFC7", "D1135", "AMPL", "RD", "FWD"}
-		{"REA", "CM01", "RFC7", "D1135", "AMPL", "RD", "REF"}
-		{"REA", "CM01", "RFC7", "D1135", "AMPL", "RD", "RFL"}
-		{"REA", "CM01", "RFC7", "D1135", "PHA", "RD", "FWD"}
-		{"REA", "CM01", "RFC7", "D1135", "PHA", "RD", "REF"}
-		{"REA", "CM01", "RFC7", "D1135", "PHA", "RD", "RFL"}
-		{"REA", "CM01", "RFC7", "D1135", "POWR", "RD", "CAV"}
-		{"REA", "CM01", "RFC7", "D1135", "POWR", "RD", "FWD"}
-		{"REA", "CM01", "RFC7", "D1135", "POWR", "RD", "RFL"}
-		{"REA", "CM01", "RFA8", "D1143", "I", "RD", ""}
-		{"REA", "CM01", "RFA8", "D1143", "POWR", "RD", ""}
-		{"REA", "CM01", "RFC8", "D1143", "SINF", "RD", ""}
-		{"REA", "CM01", "RFC8", "D1143", "AMPL", "RD", "FWD"}
-		{"REA", "CM01", "RFC8", "D1143", "AMPL", "RD", "REF"}
-		{"REA", "CM01", "RFC8", "D1143", "AMPL", "RD", "RFL"}
-		{"REA", "CM01", "RFC8", "D1143", "PHA", "RD", "FWD"}
-		{"REA", "CM01", "RFC8", "D1143", "PHA", "RD", "REF"}
-		{"REA", "CM01", "RFC8", "D1143", "PHA", "RD", "RFL"}
-		{"REA", "CM01", "RFC8", "D1143", "POWR", "RD", "CAV"}
-		{"REA", "CM01", "RFC8", "D1143", "POWR", "RD", "FWD"}
-		{"REA", "CM01", "RFC8", "D1143", "POWR", "RD", "RFL"}
-		{"REA", "CM01", "CCG", "D1146", "VP", "RD", ""}
-		{"REA", "CM01", "CCG", "D1146", "V", "RD", ""}
-		{"REA", "BTS23", "PSD", "D1155", "B", "RD", ""}
-		{"REA", "BTS25", "SLVB", "D1166", "POS", "CSET", ""}
-		{"REA", "BTS25", "SLVT", "D1166", "POS", "CSET", ""}
-		{"REA", "BTS25", "CCG", "D1178", "VP", "RD", ""}
-		{"REA", "BTS25", "CCG", "D1178", "V", "RD", ""}
-		{"REA", "BTS25", "FPG", "D1178", "VP", "RD", ""}
-		{"REA", "BTS25", "FPG", "D1178", "V", "RD", ""}
-		{"REA", "BTS25", "PG", "D1178", "VP", "RD", ""}
-		{"REA", "BTS25", "PG", "D1178", "V", "RD", ""}
-		{"REA", "BTS25", "TMP", "D1178", "S", "RD", ""}
-		{"REA", "BTS25", "TMP", "D1178", "V", "RD", ""}
-		{"REA", "BTS25", "PSA", "D1178", "V", "CSET", ""}
-		{"REA", "BTS25", "PSE", "D1178", "V", "CSET", ""}
-		{"REA", "BTS25", "PSG", "D1178", "V", "CSET", ""}
-		{"REA", "BTS25", "DIFF", "D1178", "V", "CSET", ""}
-		{"REA", "BTS25", "PSD", "D1200", "B", "RD", ""}
-		{"REA", "BTS25", "FPG", "D1203", "VP", "RD", ""}
-		{"REA", "BTS25", "FPG", "D1203", "V", "RD", ""}
-		{"REA", "BTS25", "FPG", "D1204", "VP", "RD", ""}
-		{"REA", "BTS25", "FPG", "D1204", "V", "RD", ""}
-		{"REA", "BTS25", "CCG", "D1207", "VP", "RD", ""}
-		{"REA", "BTS25", "CCG", "D1207", "V", "RD", ""}
-		{"REA", "BTS25", "FPG", "D1207", "VP", "RD", ""}
-		{"REA", "BTS25", "FPG", "D1207", "V", "RD", ""}
-		{"REA", "BTS25", "PG", "D1207", "VP", "RD", ""}
-		{"REA", "BTS25", "PG", "D1207", "V", "RD", ""}
-		{"REA", "BTS25", "TMP", "D1207", "S", "RD", ""}
-		{"REA", "BTS25", "TMP", "D1207", "V", "RD", ""}
-		{"REA", "BTS25", "PSA", "D1207", "V", "CSET", ""}
-		{"REA", "BTS25", "PSE", "D1207", "V", "CSET", ""}
-		{"REA", "BTS25", "PSB", "D1207", "V", "CSET", ""}
-		{"REA", "BTS25", "DIFF", "D1207", "V", "CSET", ""}
-		{"REA", "BTS30", "SLR", "D1256", "POS", "CSET", ""}
-		{"REA", "BTS30", "SLL", "D1256", "POS", "CSET", ""}
-		{"REA", "BTS30", "SLB", "D1256", "POS", "CSET", ""}
-		{"REA", "BTS30", "SLT", "D1256", "POS", "CSET", ""}
-		{"REA", "BTS30", "PSA", "D1256", "V", "CSET", ""}
-		{"REA", "BTS30", "PSE", "D1256", "V", "CSET", ""}
-		{"REA", "BTS30", "PSG", "D1256", "V", "CSET", ""}
-		{"REA", "BTS30", "DIFF", "D1256", "V", "CSET", ""}
-		{"REA", "BTS30", "PSD", "D1296", "B", "RD", ""}
-		{"REA", "BTS30", "SLR", "D1316", "POS", "CSET", ""}
-		{"REA", "BTS30", "SLL", "D1316", "POS", "CSET", ""}
-		{"REA", "BTS30", "PG", "D1316", "VP", "RD", ""}
-		{"REA", "BTS30", "PG", "D1316", "V", "RD", ""}
-		{"REA", "BTS30", "FPG", "D1316", "VP", "RD", ""}
-		{"REA", "BTS30", "FPG", "D1316", "V", "RD", ""}
-		{"REA", "BTS30", "CCG", "D1316", "VP", "RD", ""}
-		{"REA", "BTS30", "CCG", "D1316", "V", "RD", ""}
-		{"REA", "BTS30", "TMP", "D1316", "S", "RD", ""}
-		{"REA", "BTS30", "TMP", "D1316", "V", "RD", ""}
-		{"REA", "BTS30", "PSD", "D1338", "B", "RD", ""}
-		{"REA", "BTS30", "PSD", "D1362", "B", "RD", ""}
-		{"REA", "BTS32", "PSD", "D1376", "B", "RD", ""}
-		{"REA", "BTS33", "PG", "D1408", "VP", "RD", ""}
-		{"REA", "BTS33", "PG", "D1408", "V", "RD", ""}
-		{"REA", "BTS33", "FPG", "D1408", "VP", "RD", ""}
-		{"REA", "BTS33", "FPG", "D1408", "V", "RD", ""}
-		{"REA", "BTS33", "CCG", "D1408", "VP", "RD", ""}
-		{"REA", "BTS33", "CCG", "D1408", "V", "RD", ""}
-		{"REA", "BTS33", "TMP", "D1408", "S", "RD", ""}
-		{"REA", "BTS33", "TMP", "D1408", "V", "RD", ""}
+##---------------------------------------------------------------------------------------##
+#	user.substitutions file	(aka template file)											  #
+#		Kept everything in original list												  #
+#		Some of them would need their own db file										  #
+#																						  #
+#																						  #
+#	PATTERN:																			  #
+#	{ sys, subsys, dev, desc, inst, sig, egu, drvl, drvh }								  #
+#	{"REA", "BTS23", "DV", "Dipole, Vertical", "D1155", "I", "amps", "-300", "300"}		  #
+#																						  #
+#	LOG:																				  #
+#	crispd 6Dec16 -- Generated file from script, added some fields for instruction		  #
+#																						  #
+##-------------------------##------------------------------------------------------------##
+#	FOR I_CSET/RSET/RD		#
+##-------------------------##
+
+
+file "dummyDEV.db" {
+	pattern { sys, subsys, dev, desc, inst, sig, egu, drvl, drvh }
+		{"REA", "BTS23", "DV", "Dipole, Vertical", "D1155", "I", "amps", "-300", "300"}
+		{"REA", "BTS25", "Q", "Quadrupole", "D1164", "I", "amps", "-200", "200"}
+#		{"REA", "BTS25", "SLVCEN", "Slit, Vertical Center", "D1166", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS25", "SLVGAP", "Slit, Vertical Gap", "D1166", "POS", "mm", "-40", "40"}
+		{"REA", "BTS25", "Q", "Quadrupole", "D1169", "I", "amps", "-200", "200"}
+		{"REA", "BTS25", "DCH", "Dipole, Horizontal Corrector", "D1172", "I", "amps", "-200", "200"}
+		{"REA", "BTS25", "DCV", "Dipole, Vertical Corrector", "D1172", "I", "amps", "-200", "200"}
+		{"REA", "BTS25", "Q", "Quadrupole", "D1174", "I", "amps", "-200", "200"}
+		{"REA", "BTS25", "Q", "Quadrupole", "D1181", "I", "amps", "-200", "200"}
+		{"REA", "BTS25", "Q", "Quadrupole", "D1186", "I", "amps", "-200", "200"}
+		{"REA", "BTS25", "Q", "Quadrupole", "D1192", "I", "amps", "-200", "200"}
+		{"REA", "BTS25", "DV", "Dipole, Vertical", "D1200", "I", "amps", "-300", "300"}
+#		{"REA", "BTS25", "DD", "Diagonal Drive", "D1207", "POS", "mm", "-40", "40"}
+		{"REA", "BTS30", "DCV", "Dipole, Vertical Corrector", "D1219", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "DCH", "Dipole, Horizontal Corrector", "D1219", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1221", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1228", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1245", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1252", "I", "amps", "-200", "200"}
+#		{"REA", "BTS30", "SLHCEN", "Slit, Horizontal Center", "D1256", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "SLHGAP", "Slit, Horizontal Gap", "D1256", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "SLVCEN", "Slit, Vertical Center", "D1256", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "SLVGAP", "Slit, Vertical Gap", "D1256", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "DD", "Diagonal Drive", "D1256", "POS", "mm", "-40", "40"}
+		{"REA", "BTS30", "DCV", "Dipole, Vertical Corrector", "D1270", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "DCH", "Dipole, Horizontal Corrector", "D1270", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1272", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1275", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1281", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1285", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "DH", "Dipole, Horizontal", "D1296", "I", "amps", "-300", "300"}
+		{"REA", "BTS30", "DCV", "Dipole, Vertical Corrector", "D1305", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "DCH", "Dipole, Horizontal Corrector", "D1305", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1307", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1310", "I", "amps", "-200", "200"}
+#		{"REA", "BTS30", "SLHCEN", "Slit, Horizontal Center", "D1316", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "SLHGAP", "Slit, Horizontal Gap", "D1316", "POS", "mm", "-40", "40"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1323", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1327", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "DH", "Dipole, Horizontal", "D1338", "I", "amps", "-300", "300"}
+		{"REA", "BTS30", "DCV", "Dipole, Vertical Corrector", "D1345", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "DCH", "Dipole, Horizontal Corrector", "D1345", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1346", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "Q", "Quadrupole", "D1351", "I", "amps", "-200", "200"}
+		{"REA", "BTS30", "DH", "Dipole, Horizontal", "D1362", "I", "amps", "-300", "300"}
+		{"REA", "BTS32", "Q", "Quadrupole", "D1369", "I", "amps", "-200", "200"}
+		{"REA", "BTS32", "DH", "Dipole, Horizontal", "D1376", "I", "amps", "-300", "300"}
+		{"REA", "BTS33", "DCV", "Dipole, Vertical Corrector", "D1385", "I", "amps", "-200", "200"}
+		{"REA", "BTS33", "DCH", "Dipole, Horizontal Corrector", "D1385", "I", "amps", "-200", "200"}
+		{"REA", "BTS33", "Q", "Quadrupole", "D1388", "I", "amps", "-200", "200"}
+		{"REA", "BTS33", "Q", "Quadrupole", "D1395", "I", "amps", "-200", "200"}
+		{"REA", "BTS33", "DCV", "Dipole, Vertical Corrector", "D1404", "I", "amps", "-200", "200"}
+		{"REA", "BTS33", "DCH", "Dipole, Horizontal Corrector", "D1404", "I", "amps", "-200", "200"}
+		{"REA", "BTS33", "Q", "Quadrupole", "D1411", "I", "amps", "-200", "200"}
+		{"REA", "BTS33", "Q", "Quadrupole", "D1415", "I", "amps", "-200", "200"}
+		{"REA", "BTS23", "PSD", "Power Supply, Dipole", "D1155", "B", "kGauss", "-1000", "1000"}
+#		{"REA", "BTS25", "SLVB", "Slit, Bottom" "D1166", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS25", "SLVT", "Slit, Top" "D1166", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS25", "CCG", "Cold Cathode Gauge", "D1178", "VP_RD", ""}
+#		{"REA", "BTS25", "CCG", "Cold Cathode Gauge", "D1178", "V_RD", ""}
+#		{"REA", "BTS25", "FPG", "Foreline Pirani Gauge", "D1178", "VP_RD", ""}
+#		{"REA", "BTS25", "FPG", "Foreline Pirani Gauge", "D1178", "V_RD", ""}
+#		{"REA", "BTS25", "PG", "Pirani Gauge", "D1178", "VP_RD", ""}
+#		{"REA", "BTS25", "PG", "Pirani Gauge", "D1178", "V_RD", ""}
+#		{"REA", "BTS25", "TMP", "Turbo Molecular Pump", "D1178", "S_RD", ""}
+#		{"REA", "BTS25", "TMP", "Turbo Molecular Pump", "D1178", "V_RD", ""}
+#		{"REA", "BTS25", "PSA", "Power Supply, Anode", "D1178", "V_CSET", ""}
+#		{"REA", "BTS25", "PSE", "Power Supply, Extraction", "D1178", "V_CSET", ""}
+#		{"REA", "BTS25", "PSG", "Power Supply, Grid", "D1178", "V_CSET", ""}
+#		{"REA", "BTS25", "DIFF", "Difference", "D1178", "V_CSET", ""}
+		{"REA", "BTS25", "PSD", "Power Supply, Dipole", "D1200", "B", "kGauss", "-1000", "1000"}
+#		{"REA", "BTS25", "FPG", "Foreline Pirani Gauge", "D1203", "VP_RD", ""}
+#		{"REA", "BTS25", "FPG", "Foreline Pirani Gauge", "D1203", "V_RD", ""}
+#		{"REA", "BTS25", "FPG", "Foreline Pirani Gauge", "D1204", "VP_RD", ""}
+#		{"REA", "BTS25", "FPG", "Foreline Pirani Gauge", "D1204", "V_RD", ""}
+#		{"REA", "BTS25", "CCG", "Cold Cathode Gauge", "D1207", "VP_RD", ""}
+#		{"REA", "BTS25", "CCG", "Cold Cathode Gauge", "D1207", "V_RD", ""}
+#		{"REA", "BTS25", "FPG", "Foreline Pirani Gauge", "D1207", "VP_RD", ""}
+#		{"REA", "BTS25", "FPG", "Foreline Pirani Gauge", "D1207", "V_RD", ""}
+#		{"REA", "BTS25", "PG", "Pirani Gauge", "D1207", "VP_RD", ""}
+#		{"REA", "BTS25", "PG", "Pirani Gauge", "D1207", "V_RD", ""}
+#		{"REA", "BTS25", "TMP", "Turbo Molecular Pump", "D1207", "S_RD", ""}
+#		{"REA", "BTS25", "TMP", "Turbo Molecular Pump", "D1207", "V_RD", ""}
+#		{"REA", "BTS25", "PSA", "Power Supply, Anode", "D1207", "V_CSET", ""}
+#		{"REA", "BTS25", "PSE", "Power Supply, Extraction", "D1207", "V_CSET", ""}
+#		{"REA", "BTS25", "PSB", "Power Supply, Bias", "D1207", "V_CSET", ""}
+#		{"REA", "BTS25", "DIFF", "Difference", "D1207", "V_CSET", ""}
+#		{"REA", "BTS30", "SLR", "Slit, Right", "D1256", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "SLL", "Slit, Left", "D1256", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "SLB", "Slit, Bottom", "D1256", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "SLT", "Slit, Top", "D1256", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "PSA", "Power Supply, Anode", "D1256", "V_CSET", ""}
+#		{"REA", "BTS30", "PSE", "Power Supply, Extraction", "D1256", "V_CSET", ""}
+#		{"REA", "BTS30", "PSG", "Power Supply, Grid", "D1256", "V_CSET", ""}
+#		{"REA", "BTS30", "DIFF", "Difference", "D1256", "V_CSET", ""}
+		{"REA", "BTS30", "PSD", "Power Supply, Dipole", "D1296", "B", "kGauss", "-1000", "1000"}
+#		{"REA", "BTS30", "SLR", "Slit, Right", "D1316", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "SLL", "Slit, Left", "D1316", "POS", "mm", "-40", "40"}
+#		{"REA", "BTS30", "PG", "Pirani Gauge", "D1316", "VP_RD", ""}
+#		{"REA", "BTS30", "PG", "Pirani Gauge", "D1316", "V_RD", ""}
+#		{"REA", "BTS30", "FPG", "Foreline Pirani Gauge", "D1316", "VP_RD", ""}
+#		{"REA", "BTS30", "FPG", "Foreline Pirani Gauge", "D1316", "V_RD", ""}
+#		{"REA", "BTS30", "CCG", "Cold Cathode Gauge", "D1316", "VP_RD", ""}
+#		{"REA", "BTS30", "CCG", "Cold Cathode Gauge", "D1316", "V_RD", ""}
+#		{"REA", "BTS30", "TMP", "Turbo Molecular Pump", "D1316", "S_RD", ""}
+#		{"REA", "BTS30", "TMP", "Turbo Molecular Pump", "D1316", "V_RD", ""}
+		{"REA", "BTS30", "PSD", "Power Supply, Dipole", "D1338", "B", "kGauss", "-1000", "1000"}
+		{"REA", "BTS30", "PSD", "Power Supply, Dipole", "D1362", "B", "kGauss", "-1000", "1000"}
+		{"REA", "BTS32", "PSD", "Power Supply, Dipole", "D1376", "B", "kGauss", "-1000", "1000"}
+#		{"REA", "BTS33", "PG", "Pirani Gauge", "D1408", "VP_RD", ""}
+#		{"REA", "BTS33", "PG", "Pirani Gauge", "D1408", "V_RD", ""}
+#		{"REA", "BTS33", "FPG", "Foreline Pirani Gauge", "D1408", "VP_RD", ""}
+#		{"REA", "BTS33", "FPG", "Foreline Pirani Gauge", "D1408", "V_RD", ""}
+#		{"REA", "BTS33", "CCG", "Cold Cathode Gauge", "D1408", "VP_RD", ""}
+#		{"REA", "BTS33", "CCG", "Cold Cathode Gauge", "D1408", "V_RD", ""}
+#		{"REA", "BTS33", "TMP", "Turbo Molecular Pump", "D1408", "S_RD", ""}
+#		{"REA", "BTS33", "TMP", "Turbo Molecular Pump", "D1408", "V_RD", ""}
 }

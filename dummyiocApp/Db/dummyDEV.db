@@ -1,0 +1,34 @@
+##-------------------------##
+#	DEVICE I_CSET/RSET/RD	#
+##-------------------------##
+record(ao, "$(sys)_$(subsys):$(dev)_$(inst):$(sig)_CSET")
+{
+	field(DESC, "$(desc)")
+	field(EGU,  "$(egu)")
+	field(DRVL, "$(drvl)")
+	field(DRVH, "$(drvh)")
+	field(PREC, "3")
+	field(PINI, "YES")
+	field(ADEL, "0.01")
+	info(autosaveFields, "VAL")
+}
+record(ai, "$(sys)_$(sub):$(dev)_$(inst):$(sig)_RSET")
+{
+	field(DESC, "$(desc)")
+	field(EGU, "$(egu)")
+	field(PREC, "3")
+	field(PINI, "0")
+	field(ADEL, "0.01")
+}
+record(ai, "$(sys)_$(sub):$(dev)_$(inst):$(sig)_RD")
+{
+	field(DESC, "$(desc)")
+	field(EGU, "$(egu)")
+	field(PREC, "3")
+	field(HHSV, "MAJOR")
+	field(HSV, "MINOR")
+	field(LSV, "MINOR")
+	field(LLSV, "MAJOR")
+	field(PINI, "0")
+	field(ADEL, "0.01")
+}

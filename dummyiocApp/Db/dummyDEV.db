@@ -32,3 +32,37 @@ record(ai, "$(sys)_$(sub):$(dev)_$(inst):$(sig)_RD")
 	field(PINI, "0")
 	field(ADEL, "0.01")
 }
+
+##-------------------------##
+#	PS* binary io			#
+##-------------------------##
+record(bo, "$(sys)_$(subsys):$(dev)_$(inst):ON_CMD")
+{
+	field(DESC, "On Command")
+	field(VAL, "0")
+	field(OUT, "$(sys)_$(subsys):$(dev)_$(inst):ON_RSTS NPP MS")
+	field(PINI, "0")
+}
+
+record(bi, "$(sys)_$(subsys):$(dev)_$(inst):ON_RSTS")
+{
+	field(DESC, "On Command")
+	field(VAL, "0")
+	field(PINI, "1")
+}
+
+record(bo, "$(sys)_$(subsys):$(dev)_$(inst):RST_CMD")
+{
+	field(DESC, "Reset Interlock Command")
+	field(VAL, "0")
+	field(OUT, "$(sys)_$(subsys):$(dev)_$(inst):ILK_RSTS NPP MS")
+	field(PINI, "1")
+}
+
+record(bi, "$(sys)_$(subsys):$(dev)_$(inst):ILK_RSTS")
+{
+	field(DESC, "Interlock Read Status")
+	field(VAL, "0")
+	field(PINI, "1")
+}
+
